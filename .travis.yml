@@ -10,3 +10,5 @@ components:
 before_script:
 # Change Gradle wrapper permissions
 - chmod +x gradlew
+# Let's build
+script: ./gradlew clean build
